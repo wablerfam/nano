@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+  nano:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: golang-work:1.0.0
+    container_name: nano
+    volumes:
+      - .:/go/src/nano
+    entrypoint: tail -f /dev/null
