@@ -21,7 +21,7 @@ No need. There is a binary that can be executed immediately in the decompressed 
     
     time: 9034835 ns
 
-    /go # nano ls
+    /go # nano ls -l
     -rw-r--r--    1 foo     bar           515 Jul 30 15:23 README.md
     drwxr-xr-x    4 foo     bar           136 Jul 30 09:48 nano
 
