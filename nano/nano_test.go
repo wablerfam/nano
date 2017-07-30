@@ -1,4 +1,4 @@
-package main
+package nano
 
 import (
 	"regexp"
@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetNanoSecondFormatRFC3339Nano(t *testing.T) {
-	n := nano()
+	n := Measure()
 
 	rep := regexp.MustCompile(`^[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]T[0-9][0-9]:[0-9][0-9]:[0-9][0-9].(.*)Z`)
 	mat := rep.MatchString(n)
