@@ -23,6 +23,6 @@ No need. There is a binary that can be executed immediately in the decompressed 
 
     /go # nano ls -l
     -rw-r--r--    1 foo     bar           515 Jul 30 15:23 README.md
-    drwxr-xr-x    4 foo     bar           136 Jul 30 09:48 nano
+    -rw-r--r--    1 foo     bar           194 Jul 30 15:27 main.go
 
     time: 8412035 ns
