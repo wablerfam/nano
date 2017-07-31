@@ -15,6 +15,8 @@ No need. There is a binary that can be executed immediately in the decompressed 
 
 ## Options
 ### Measure the command execution time in nanoseconds
+Linux only  
+
     /go # nano ls
     README.md
     main.go
