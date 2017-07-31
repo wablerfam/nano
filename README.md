@@ -10,8 +10,15 @@ No need. There is a binary that can be executed immediately in the decompressed 
 
 ## Example
 ### Get current time in nanoseconds
+Linux  
+
     /go # nano
     2017-07-29T15:44:11.617736606Z
+
+Windows  
+
+    C:¥go>nano
+    2017-07-29T15:44:11.6177366+09:00
 
 ## Options
 ### Measure the command execution time in nanoseconds
